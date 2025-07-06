@@ -1,7 +1,7 @@
 # Customer-churn-analysis
 This project aims to predict customer churn using machine learning techniques. The notebook includes data preprocessing, exploratory data analysis (EDA), feature engineering, and model training using several classification algorithms.
 
-## 1. 📊 Telco Churn Analysis
+## 1. Telco Churn Analysis
 
 ### 🔎 Project Overview
 
@@ -18,5 +18,28 @@ The notebook walks through a full machine learning pipeline — from data loadin
 - **Handling Imbalanced Data**: Applied **SMOTE** (Synthetic Minority Over-sampling Technique).
 - **Model Building**: Trained multiple classifiers: **Logistic Regression**, **Decision Tree**, **Random Forest**, **Gradient Boosting**, and **XGBoost**.
 - **Model Evaluation**: Evaluated using **Accuracy**, **Recall**, and **F1 Score**.
+
+### 📊 Techniques Used
+
+- **Exploratory Data Analysis (EDA)**
+- **Data Cleaning & Preprocessing**
+- **Feature Encoding & Scaling**
+- **Model Training & Evaluation**
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+- **Accuracy, Precision, Recall, F1-Score**
+
+## 📦 Requirements
+
+Make sure to have the following libraries installed:
+
+```bash
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
 
 ---
